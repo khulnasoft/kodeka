@@ -1,0 +1,3 @@
+# Only deploy the scripts directory
+/*
+!scripts/

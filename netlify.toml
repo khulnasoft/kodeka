@@ -1,0 +1,11 @@
+[build]
+  publish = "scripts"
+  command = "echo 'No build step required'"
+
+[build.environment]
+  PYTHON_VERSION = "3.10"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
